@@ -1,0 +1,4 @@
+Small diffs you can add on top (pick one or two)
+Base64 evasion test plus results. The README shows no evaluation. Build a test script with two modes (raw ciphertext and base64-encoded ciphertext) on your own test folder, then measure which layers catch each mode, how fast, and how many false alarms. A results table is your main contribution.
+Encoding-aware check. Base64 output has a very recognizable signature: only 64 symbols, so its entropy sits near 6.0 (that is log2 of 64), and it is almost 100% printable ASCII. Add a rule: if a file that used to be a different type suddenly looks like base64, alert. This directly answers the evasion trick from the 2022 and 2024 papers.
+Beyond .txt files. The repo only handles text files. Extend it to .docx, .pdf and .jpg with a per-file-type entropy baseline, since compressed formats are naturally high entropy.

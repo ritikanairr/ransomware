@@ -1,0 +1,7 @@
+case,category,expected_positive,detected,entropy_bits_per_byte,ascii_ratio,similarity_percent,entropy_alert,ascii_alert,similarity_alert,base64_transition_alert,format_alert,analysis_latency_ms,false_positive,missed_positive
+normal_text_edit,text,False,False,4.0368,1.0,96,False,False,False,False,False,0.328,False,False
+raw_ciphertext_like_bytes,text,True,True,7.9533,0.3843,0,True,True,True,False,False,1.498,False,False
+base64_encoded_ciphertext_like_bytes,text,True,True,5.9895,1.0,0,False,False,True,True,False,0.957,False,False
+format_change_pdf,pdf,False,False,7.959,0.3994,2,False,False,False,False,False,41.861,False,False
+format_change_invalid_docx,invalid_docx,False,True,7.9597,0.3982,2,True,False,False,False,True,38.787,True,False
+format_change_invalid_jpeg,invalid_jpeg,False,True,7.9593,0.3977,2,True,False,False,False,True,35.145,True,False

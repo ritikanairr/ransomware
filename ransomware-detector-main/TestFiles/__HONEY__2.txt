@@ -1,0 +1,7 @@
+This is a honeypot file
+
+Tasks are:
+- Detect ransomware activities
+- Notify the user about suspicious activity 
+
+DO NOT DELETE OR MODIFY
