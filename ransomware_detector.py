@@ -4,9 +4,6 @@ Ransomware Detection Tool
 # Important!
 - Libraries required: watchdog, sortedcontainers
 
-# Authors:
-    - Raz Cohen
-    - Aliza Lazar
 
 # Efficiency Analysis:
 Definitions:
